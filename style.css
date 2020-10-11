@@ -1,0 +1,294 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f7f9;
+}
+
+.header-logo {
+  padding: 30px 25px;
+  font-family: 'Didot';
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 0.01em;
+  color: #000;
+  width: 50%;
+}
+
+.header-right {
+  padding: 30px 25px;
+  width: 50%;
+  text-align: right;
+}
+
+.header-tel {
+  font-family: '小塚ゴシック Pr6N';
+  font-weight: normal;
+  font-size: 30px;
+  color: #f74d95;
+}
+
+.header-opening {
+  font-family: '小塚ゴシック Pr6N';
+  font-weight: normal;
+  font-size: 15px;
+  color: black;
+}
+
+.hero-wrapper {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #f6f7f9;
+  position: relative;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 110px;
+  position: relative;
+}
+
+.hero-left {
+  float: left;
+  padding-left: 30px;
+  width: 700px;
+}
+
+.hero-h5 {
+  position: absolute;
+  top: 10px;
+  left: -70px;
+  font-family: Zapfino;
+  font-weight: bold;
+  font-size: 50px;
+  color: #eeeff1;
+  z-index: 1;
+  transform: rotate(-6.29deg);
+}
+
+.hero-h2 {
+  position: relative;
+  font-family: ヒラギノ角ゴ Pro;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  color: #ff66a7;
+  z-index: 10;
+}
+
+.hero-h1 {
+  font-family: 'Helvetica Neue', 'ヒラギノ角ゴ Pro';
+  font-weight: bold;
+  font-size: 105px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #ff65aa;
+  background: -webkit-linear-gradient(0deg, #f6c314, #ff65aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-p {
+  margin-top: 23px;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 1.52;
+  letter-spacing: 0.075;
+  color: black;
+}
+
+.hero-h4 {
+  margin-top: 40px;
+  color: #ff66a7;
+  font-family: ヒラギノ角ゴ Pro;
+  font-size: 34px;
+  line-height: 1.33;
+  letter-spacing: 0.01em;
+  font-style: italic;
+}
+
+.hero-h4 span {
+  font-size: 53px;
+  line-height: 0.85;
+}
+
+.hero-a {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 145px;
+  height: 64px;
+  line-height: 64px;
+  width: 514px;
+  background: linear-gradient(-135deg, #f6c314, #ff65aa);
+  border-radius: 32px;
+  text-align: center;
+  color: white;
+  font-family: 小塚ゴシック Pr6N;
+  font-size: 25px;
+  font-weight: normal;
+  letter-spacing: 0.025em;
+}
+
+.hero-right{
+  float: left;
+  /* border: 1px solid yellow; */
+  width: 470px;
+  position: relative
+}
+
+.hero-ellipse {
+  position: absolute;
+  top: -163px;
+  left: 50px;
+  z-index: 0.5;
+
+}
+
+.hero-h3 {
+  float:right;
+  writing-mode: vertical-rl;
+  font-family: 小塚ゴシック Pr6N;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.46;
+  letter-spacing: 0.1em;
+  color: #f74d95;
+  transform: rotate(11.08deg);
+  margin-top: 100px;
+  margin-right: -100px;
+}
+
+.hero-satisfaction {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #fb71b0;
+  text-align: center;
+  position: relative;
+  margin-left: -175px;
+  margin-top: 260px;
+}
+
+.hero-satisfaction-p1 {
+  position: absolute;
+  top: 20px;
+  left:0;
+  font-family: '小塚ゴシック Pr6N';
+  font-size: 24px;
+  line-height: 1.46;
+  letter-spacing: 0.025em;
+  color: white;
+}
+
+.hero-satisfaction-p1 span {
+  font-size: 90px;
+  line-height: 80px;
+  font-style: italic;
+}
+
+.clear {
+  clear: left;
+}
+
+.why-wrapper {
+  position: relative;
+  background-image: url(images/bg.png);
+  background-size: cover;
+  height: 400px;
+  width: 1600px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.why-container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.why-texts {
+  text-align: center;
+  position: relative;
+}
+
+.why-texts h3 {
+  position: absolute;
+  top: -30px;
+  left: 380px;
+  font-family: Myriad Pro;
+  font-weight: normal;
+  font-size: 50px;
+  color: #f5579e;
+  transform: rotate(-6.29deg);
+}
+
+.why-texts h2{
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  font-size: 44px;
+  letter-spacing: 0.1em;
+  padding-top: 50px;
+  color: #5d5d5d;
+}
+
+.why-cards {
+  width: 1000px;
+  display: flex;
+}
+
+.card {
+  width: 33%;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  position: relative;
+}
+
+.card img {
+}
+
+.card-p1 {
+  position: absolute;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: normal;
+  font-size: 21px;
+  letter-spacing: 0.025em;
+  line-height: 1.17;
+  font-style: italic;
+  top: 54px;
+  width: 100%;
+}
+
+.card-p2 {
+  position: absolute;
+  font-family: ヒラギノ角ゴ Pro;
+  font-weight: bold;
+  font-size: 34px;
+  letter-spacing: 0.025em;
+  line-height: 1.1;
+  font-style: italic;
+  top: 85px;
+  width: 100%;
+}
